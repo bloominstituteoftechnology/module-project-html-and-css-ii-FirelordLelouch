@@ -1,0 +1,55 @@
+body { font-family: Arial, Helvetica, sans-serif; 
+}
+#headerTop { background-color: #176bad;
+    color: white;
+    padding: .5rem;
+}
+.inline { display: inline-block; 
+}
+#headerTop span { margin-right: .5rem; 
+}
+.bold { font-weight: bold;
+    text-transform: uppercase;
+}
+#headerBottom { border-bottom: grey;
+    padding: .5rem;
+}
+#headerBottom > div { display: inline-block;
+}
+.boop {
+    color :white;
+    background-color: #176bad;
+    padding: .4rem;
+    border-radius: 4px;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+#headerBottom button {
+    padding: 0;
+    border: none;
+    background: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+#headerBottom button.active {
+    border-bottom: 2px #176bad;
+    wont-weight: bold;
+}
+.email div {
+    display: inline-block;
+}
+.email{
+    padding: .4rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid #c5c5c5;
+}
+.email-name, .email-subject {
+    width: 35%;
+}
+.email-check, .email-date, .email-size {
+    width: 8%;
+}
+.email:nth-child(2){
+    font-weight: bold;
+}
